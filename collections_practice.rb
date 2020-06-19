@@ -45,6 +45,8 @@ def add_s(array)
   array.map.with_index do |string, i| 
     if i != 1 
       string = string + "s"
+    else
+      string = string 
     end
   end
 end
