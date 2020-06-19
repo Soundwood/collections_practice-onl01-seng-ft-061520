@@ -46,4 +46,5 @@ def add_s(array)
     if i != 1 
       string = string + "s"
     end
+  end
 end
